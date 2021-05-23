@@ -38,3 +38,16 @@ Deployment in a stream oriented Fashion
 3. cd continuity
 4. sh run-app.sh
 5. The output file will be seen in the same folder
+
+# Sample Log
+sh run-app.sh
+23-05-2021 09:38:48 [INFO] : JOB SUBMIT STARTS HERE FOR
+23-05-2021 09:38:48 [INFO] : python3 /home/hadoop/test/tosubmit/continuity/IndeedFlex/main.py --input_file_name /home/hadoop/test/tosubmit/continuity/worker_activity.csv --target_file_name /home/hadoop/test/tosubmit/continuity/results.csv
+2021-05-23 09:38:48,859: INFO - Continuity Of Work Python Program Starts Here
+2021-05-23 09:38:48,859: INFO - Read CSV File into DataFrame /home/hadoop/test/tosubmit/continuity/worker_activity.csv
+2021-05-23 09:38:48,902: INFO - Derive Columsn for Calulations
+2021-05-23 09:38:49,104: INFO - Calculate Worker's Continuity
+2021-05-23 09:38:49,109: INFO - Write the resultant Dataframe into CSV File /home/hadoop/test/tosubmit/continuity/results.csv
+2021-05-23 09:38:49,112: INFO - End of Python Program
+23-05-2021 09:38:49 [INFO] : JOB COMPLETED
+
